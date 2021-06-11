@@ -2,12 +2,12 @@ var ISS_Image, spacecraft1_Image, spacecraft2_Image, spacecraft3_Image, spacecra
 var ISS, spaceCraft, shuttleState = 0, blinking=0;
 
 function preload(){
-  ISS_Image = loadImage("Docking-undocking/iss.png");
-  spacecraft1_Image = loadImage("Docking-undocking/spacecraft1.png");
-  spacecraft2_Image = loadImage("Docking-undocking/spacecraft2.png");
-  spacecraft3_Image = loadImage("Docking-undocking/spacecraft3.png");
-  spacecraft4_Image = loadImage("Docking-undocking/spacecraft4.png");
-  background_Image = loadImage("Docking-undocking/spacebg.jpg");
+  ISS_Image = loadImage("iss.png");
+  spacecraft1_Image = loadImage("spacecraft1.png");
+  spacecraft2_Image = loadImage("spacecraft2.png");
+  spacecraft3_Image = loadImage("spacecraft3.png");
+  spacecraft4_Image = loadImage("spacecraft4.png");
+  background_Image = loadImage("spacebg.jpg");
 }
 
 function setup() {
